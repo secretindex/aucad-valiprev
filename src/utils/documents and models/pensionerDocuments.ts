@@ -31,10 +31,7 @@ const invalidPensioner: InvalidPensioner = {
 }
 
 export type PensionerCheck = {
-  posseExServidor: boolean
-  certObito: boolean
   pis: boolean
-  portariaConcessao: boolean
   beneficioPrevidenciario: boolean
 }
 
