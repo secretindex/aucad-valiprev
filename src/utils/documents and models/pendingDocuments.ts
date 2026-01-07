@@ -58,7 +58,7 @@ export type ActivesStandardType = {
 const activesStandard: ActivesStandardType = {
   cpf: "Qualquer documento contendo número do CPF",
   pis: "NIT/PIS/PASEP ou documento oficial que contenha a informação",
-  beneficioPrevidenciario: "Declaração de Benefício Previdenciário emitida a partir do site meuinss.gov.br",
+  beneficioPrevidenciario: "Declaração de Benefício Previdenciário emitida a partir do site meu.inss.gov.br",
   uniao: "Certidão de União Estável",
 }
 

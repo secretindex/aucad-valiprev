@@ -23,7 +23,8 @@ const invalidPensioner: InvalidPensioner = {
   "pis/18/n": "Enviar comprovante de cadastro no PIS/PASEP ou NIT",
   "dips/n": "Enviar declaração de Inacumulabilidade de Pensão (Anexo VIII no link abaixo)",
   "idsf/n": "Documento de Identidade e CPF do ex-servidor (a) falecido(a)",
-  "id/n": "Qualquer documento de identidade com CPF: RG, CNH, Carteira de Conselhos de Classe ou Carteira de Registro Nacional Migratório (CRNM), se estrangeiro",
+  "id/n":
+    "Qualquer documento de identidade com CPF: RG, CNH, Carteira de Conselhos de Classe ou Carteira de Registro Nacional Migratório (CRNM), se estrangeiro",
   "cerc/n": "Certidão de Casamento",
   "cav/n": "Certidão de casamento averbada",
   "un/n": "Declaração de união estável + Certidão de Nascimento",
@@ -42,7 +43,7 @@ export type StandardPensioner = {
 
 const standardPensioner: StandardPensioner = {
   pis: "NIT/PIS/PASEP ou documento oficial que contenha a informação",
-  beneficioPrevidenciario: "Declaração de Benefício Previdenciário emitida a partir do site meuinss.gov.br",
+  beneficioPrevidenciario: "Declaração de Benefício Previdenciário emitida a partir do site meu.inss.gov.br",
 }
 
 export { invalidPensioner, standardPensioner }

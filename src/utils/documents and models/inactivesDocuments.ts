@@ -5,7 +5,7 @@ export type InactiveStandard = {
 
 const inactivesStandard: InactiveStandard = {
   pis: "NIT/PIS/PASEP/NIS ou documento oficial que contenha a informação",
-  beneficioPrevidenciario: "Declaração de Benefício Previdenciário emitida a partir do site meuinss.gov.br",
+  beneficioPrevidenciario: "Declaração de Benefício Previdenciário emitida a partir do site meu.inss.gov.br",
 }
 
 export { inactivesStandard }
